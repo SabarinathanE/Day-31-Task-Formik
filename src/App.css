@@ -1,0 +1,41 @@
+.navbar{
+    background-color: rgb(90, 189, 238);
+}
+
+.nav-link:hover{
+    border: solid black 1px;
+    border-radius: 7px;
+}
+
+.card{
+    background-color: rgb(231, 212, 212);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.content{
+    margin: 0px;
+}
+
+.action{
+margin-right: 10px;
+}
+
+.Edit-data{
+    display: flex;
+    justify-content: center;
+}
+
+.input-bordered{
+    width: 200px;
+    padding: 10px;
+}
+
+.input-handle{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(168, 213, 252);
+}
