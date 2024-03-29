@@ -31,7 +31,7 @@ export default function Book({data = []}) {
                         </div>
                         <div className="col-2">
                             <p className="action">
-                            <Link type="button" to="/AddAuthor" onClick={EditData} className="btn btn-primary btn-sm me-1">Edit</Link>
+                            <Link type="button" to="/AddBooks" onClick={EditData} className="btn btn-primary btn-sm me-1">Edit</Link>
                                 <button type="button" onClick={DeleteData} className="btn btn-secondary btn-sm ">Delete</button>
                             </p>
                         </div>
