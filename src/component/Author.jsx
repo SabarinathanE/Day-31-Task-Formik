@@ -42,6 +42,6 @@ export default function Author({data = []}) {
 }
 
 Author.propTypes ={
-    data: PropTypes.array
+    data: PropTypes.object
 }
 

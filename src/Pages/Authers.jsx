@@ -4,7 +4,7 @@ import { LibraryContext } from "../Context/Library";
 
 export default function Authers() {
 const {details = []} = useContext(LibraryContext)
-console.log(details)
+
     return (
         <section className="container">
             {
