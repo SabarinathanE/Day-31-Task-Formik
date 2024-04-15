@@ -83,6 +83,7 @@ export default function AddBooks() {
             values.Author = ''; 
             values.ISBN = ''; 
             values.Published = '';
+            Navigator("/")
           }
           setSubmitting(false);
         }, 400);

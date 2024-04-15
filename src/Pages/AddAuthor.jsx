@@ -71,6 +71,7 @@ export default function AddAuthor() {
             values.Author = ''; 
             values.Bio = ''; 
             values.BirthYear = '';
+            Navigator("/Authors")
           }
           setSubmitting(false);
         }, 400);
