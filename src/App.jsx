@@ -14,6 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' Component={Books}/>
+        <Route path='/Books' Component={Books}/>
         <Route path='/Authors' Component={Authors}/>
         <Route path='/AddBooks' Component={AddBooks}/>
         <Route path='/AddAuthor' Component={AddAuthor}/>

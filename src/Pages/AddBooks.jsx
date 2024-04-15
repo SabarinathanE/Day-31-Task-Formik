@@ -105,7 +105,7 @@ export default function AddBooks() {
           <Field type="number" name="Published" placeholder="Published Year" onChange={handleChange} onBlur={handleBlur} className="input input-bordered m-2 mb-3 w-full max-w-xs sm:m-0" value={values.Published} /><br />
           <ErrorMessage name="Published" component="div" />
 
-          <button className="input input-handle m-2 w-full max-w-xs sm:m-0" type="submit" disabled={isSubmitting}>
+          <button to="/AddBooks" className="input input-handle m-2 w-full max-w-xs sm:m-0" type="submit" disabled={isSubmitting}>
           {isBookEditing ? "Update" : "Submit"}
           </button>
           </div>
