@@ -1,10 +1,11 @@
 import { Formik, Form,Field, ErrorMessage } from 'formik';
 import { useContext } from "react";
 import { LibraryContext } from "../Context/Library";
+import { useNavigate } from 'react-router-dom';
 
 export default function AddAuthor() {
   const {details = [],setDetails = () => {},isEditing = '',setIsEditing = () => {},editindex = ''} = useContext(LibraryContext);
-
+  const Navigator = useNavigate()
     return (
 
   <div>
@@ -55,6 +56,7 @@ export default function AddAuthor() {
             values.Author = ''; 
             values.Bio = ''; 
             values.BirthYear = ''; 
+            Navigator("/Authors")
           }else{
             const EditedList = {
               id: details.length,

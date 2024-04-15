@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' Component={Books}/>
         <Route path='/Authors' Component={Authors}/>
-        <Route path='/Addbooks' Component={AddBooks}/>
+        <Route path='/AddBooks' Component={AddBooks}/>
         <Route path='/AddAuthor' Component={AddAuthor}/>
       </Routes>
     </div>
